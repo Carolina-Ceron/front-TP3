@@ -19,7 +19,8 @@ function calcularArea(base,altura){
 console.log(`Ejercicio 1: ${calcularArea(3,5)}`);
 console.log(`Ejercicio 1: ${calcularArea(4,5)}`);
 console.log(`Ejercicio 1: ${calcularArea(5,5)}`);
-
+console.log("------------------------------------------------")
+console.log("")
 
 /* -------------- 2. Contar palabras en una cadena -------------- 
 -recibir la cadena por input
@@ -40,6 +41,8 @@ function contarPalabras(texto) {
 console.log(`${contarPalabras("asd asd asd")}`);
 console.log(`${contarPalabras("asd asdv")}`);
 console.log(`${contarPalabras("asd rdvdrb fdsfvs asdv")}`);
+console.log("------------------------------------------------")
+console.log("")
 
 /* -------------- 3. Invertir una cadena -------------- 
 -recibir la cadena por input
@@ -65,6 +68,8 @@ function invertirCadena(cadena) {
 console.log(invertirCadena("asd dasd"));
 console.log(invertirCadena("asd sad  dasd"));
 console.log(invertirCadena("asd  hgtfdhfgh ht htfghbfg dasd"));
+console.log("------------------------------------------------")
+console.log("")
 
 /* -------------- 4. Encontrar el palíndromo -------------- 
 -recibir la cadena por input y pasarla a minuscula
@@ -86,7 +91,8 @@ function esPalindromo(cadenaProcesada) {
 console.log(esPalindromo("Anita lava la tina"));
 console.log(esPalindromo("Anita no lava la tina"));
 console.log(esPalindromo("Anita lavaba la tina"));
-
+console.log("------------------------------------------------")
+console.log("")
 
 /* -------------- 5. Crear un programa para convertir la edad de un perro a años humanos --------------
 -recibir el numero por prompt
@@ -99,5 +105,7 @@ function edadHumana() {
         console.log(`Ejercicio 5: El perro tiene ${edad*7} años humanos`);
     }else {
         console.log("Ingresa un numero, maestro");
-    }        
+    }
+    console.log("------------------------------------------------")
+    console.log("")        
 }
