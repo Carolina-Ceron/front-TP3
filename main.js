@@ -11,6 +11,8 @@ function ejercicio1() {
     const area = calcularArea(largo, ancho); 
     console.log("Ejercicio 1")
     console.log(area); 
+    console.log("------------------------------------------------")
+    console.log("") 
 }
 function calcularArea(base,altura){
     return `El area del rectangulo es ${base*altura}`;
@@ -31,6 +33,8 @@ console.log("")
 function ejercicio2() {
     const texto = document.getElementById('texto').value;
     console.log(contarPalabras(texto));
+    console.log("------------------------------------------------")
+    console.log("") 
 }
 
 function contarPalabras(texto) {
@@ -56,6 +60,8 @@ console.log("")
 function ejercicio3() {
     const cadena = document.getElementById('invertir').value;
     console.log(invertirCadena(cadena));
+    console.log("------------------------------------------------")
+    console.log("") 
 }
 
 function invertirCadena(cadena) {
@@ -80,6 +86,8 @@ console.log("")
   function ejercicio4() {
     const cadenaProcesada = document.getElementById('palindromo').value;
     console.log(esPalindromo(cadenaProcesada));
+    console.log("------------------------------------------------")
+    console.log("") 
   }
 
 function esPalindromo(cadenaProcesada) {
