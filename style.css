@@ -42,6 +42,7 @@ input {
     font-size: 1rem;
     width: 70vw;
     color: var(--shadow-color);
+    padding: 0.2rem 0;
 }
 ::placeholder {
     color: var(--shadow-color);
